@@ -23,7 +23,7 @@ public class DatosUsuario {
         int edad = sc.nextInt();
         //Después de pedir los datos comprobamos si los datos son válidos
         boolean edadValida = edad>0 && edad<120;
-        boolean nombreValido = nombre.length()>2 && nombre.length()<120;
+        boolean nombreValido = nombre.length()>2 && nombre.length()<20;
         boolean emailValido = ProcesadorTexto.esEmailValido(email); //utiliza un metodo estático de la clase ProcesadorTexto
         if(emailValido && edadValida && nombreValido){
             Usuario usuario = new Usuario(nombre, edad, email); //crea un objeto (variable) nuevo de la clase Usuario
