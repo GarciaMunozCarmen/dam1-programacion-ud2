@@ -110,7 +110,7 @@ public class InstanciacionReferenciaYComparacion {
 // Respuesta: Porque compara el contenido y no el objeto
 
 // Ejercicio 4: ¿Por qué en Pelicula equals no funciona como en Cancion?
-// Respuesta: ...
+// Respuesta: Porque no está sobrescrito en la clase
 
 // Ejercicio 5: ¿Qué ocurre cuando modificas el objeto a través de c6? ¿Qué demuestra?
 // Respuesta: Se cambia el titulo también en c5 demuestra que c5 y c6 son el mismo objeto
