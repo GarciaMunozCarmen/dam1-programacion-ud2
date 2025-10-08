@@ -62,9 +62,9 @@ public class TrabajandoConMetodos {
 
 // Ejercicio 3: ¿Ha cambiado la variable n fuera del método incrementar()?
 // ¿Por qué?
-// Respuesta: NO LO SE
+// Respuesta: No, porque no es un objeto
 
 // Ejercicio 4: ¿Qué ha ocurrido con el título de la Cancion al usar cambiarTitulo()?
 // ¿Por qué es diferente al caso del int?
-// Respuesta: Se ha cambiado el titulo de la canción 
+// Respuesta: Se ha cambiado el titulo de la canción, porque si es un objeto
 
